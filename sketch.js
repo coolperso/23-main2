@@ -36,11 +36,11 @@ function draw() {
   text("EPIC ARCHERY", width / 2, 100);
 
    //Display Playerbase and computer base 
-display(playerBase)
-display(player)
+playerbase.display()
+player.display()
 
-display(computerBase)
-display(Computerplayer)
+computerBase.display()
+Computerplayer.display()
 
    //display Player and computerplayer
 
